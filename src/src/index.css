@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Pour rendre la scrollbar fine (si non géré par plugin Tailwind) */
+.scrollbar-thin::-webkit-scrollbar {
+    width: 5px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    /*background-color: rgba(34,197,94,0.5); /* vert Tailwind */
+    border-radius: 9999px;
+  }
